@@ -1,4 +1,10 @@
 {
   "buildCommand": "cd fomscu-medical && npm install && npm run build",
-  "outputDirectory": "fomscu-medical/dist"
+  "outputDirectory": "fomscu-medical/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
