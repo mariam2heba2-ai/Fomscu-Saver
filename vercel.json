@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd fomscu-medical && npm run build",
+  "outputDirectory": "fomscu-medical/dist"
+}
