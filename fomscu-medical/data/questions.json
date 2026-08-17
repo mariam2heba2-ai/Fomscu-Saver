@@ -1,0 +1,5 @@
+{
+  "_comment": "FOMSCU Medical question bank. Each question needs a unique 'id' and a 'type' of mcq | true_false | short_answer. 'links' are optional and connect a question back to a foundation/subject/lecture for filtering. See src/types/index.ts for the exact shape.",
+
+  "questions": []
+}

@@ -1,0 +1,122 @@
+﻿{
+  "_comment": "FOMSCU Medical content tree. Structure: Foundation -> Subject -> Lecture -> Source -> Part. Edit this file directly to add/change content. 'order' controls display position (lower = first). See src/types/index.ts for the exact shape of each object.",
+  "foundations": [
+    {
+      "id": "foundation-1",
+      "name": "Foundation 1",
+      "order": 1,
+      "subjects": [
+        {
+          "id": "anatomy",
+          "name": "Anatomy",
+          "order": 1,
+          "lectures": [
+            {
+              "id": "anatomy-intro-terms",
+              "title": "Introduction & Anatomical Terms",
+              "order": 1,
+              "sources": [
+                {
+                  "id": "anatomy-intro-terms-zamayel",
+                  "name": "قناة زمايل اكبر (Telegram notes, 3-part summary)",
+                  "type": "telegram",
+                  "parts": [
+                    {"title": "Part 1", "url": "https://t.me/goodluckhavefunss/352", "order": 1},
+                    {"title": "Part 2", "url": "https://t.me/goodluckhavefunss/353", "order": 2},
+                    {"title": "Part 3", "url": "https://t.me/goodluckhavefunss/354", "order": 3}
+                  ]
+                },
+                {"id": "anatomy-intro-terms-khanfour", "name": "Dr. Ayman Khanfour", "type": "youtube", "url": "https://youtu.be/SRzj-61k3gM?si=MRt_mIXfoT-qdat1"},
+                {"id": "anatomy-intro-terms-medschool", "name": "Medschool Team", "type": "telegram", "url": "https://t.me/Medscoolchannel/19"}
+              ]
+            },
+            {"id": "anatomy-skeletal-system", "title": "Skeletal System", "order": 2, "sources": [{"id": "anatomy-skeletal-system-src1", "name": "Source not specified", "type": "youtube", "url": "https://youtu.be/m0PhPgCWXqI?si=fojatytgm56RrF-T"}]},
+            {"id": "anatomy-articular-system", "title": "Articular System", "order": 3, "sources": [{"id": "anatomy-articular-system-src1", "name": "Source not specified", "type": "youtube", "url": "https://youtu.be/mYdkmu2Me_E?si=P4jyU9GXd3LIZ2jV"}]},
+            {"id": "anatomy-muscular-system", "title": "Muscular System", "order": 4, "sources": [{"id": "anatomy-muscular-system-src1", "name": "Source not specified", "type": "youtube", "url": "https://youtu.be/7oc_H0jtE2s?si=4L3xf7IUFEXArGkX"}]},
+            {"id": "anatomy-nervous-system", "title": "Nervous System", "order": 5, "sources": [{"id": "anatomy-nervous-system-src1", "name": "Source not specified", "type": "youtube", "url": "https://youtu.be/ocIkLse93RU?si=3nBT9EWUSZViA6Ef"}]},
+            {
+              "id": "anatomy-skull",
+              "title": "Skull",
+              "order": 6,
+              "sources": [
+                {
+                  "id": "anatomy-skull-wahdan",
+                  "name": "Dr. Wahdan",
+                  "type": "youtube",
+                  "parts": [
+                    {"title": "Norma Frontalis - Part 1", "url": "https://youtu.be/FVWWexDEEqo?si=OQ9sNBDxofWzVBwO", "order": 1},
+                    {"title": "Norma Frontalis - Part 2", "url": "https://youtu.be/Bm3Rug-4vnQ?si=bVERuwhqHV1GjSm6", "order": 2},
+                    {"title": "Norma Verticalis", "url": "https://youtu.be/dQ17T7OszXY?si=FUTMbYxbjJagGWME", "order": 3},
+                    {"title": "Norma Occipitalis", "url": "https://youtu.be/CONDD-ZnVeY?si=lMB-UkGc0kSUvYk-", "order": 4},
+                    {"title": "Norma Lateralis", "url": "https://youtu.be/tUtauy6us08?si=OmWMkebYOROq4Pz_", "order": 5},
+                    {"title": "Norma Basalis Externa - Part 1", "url": "https://youtu.be/Tt-fN7BkYtg?si=I06ug7mEHsYktr5_", "order": 6},
+                    {"title": "Norma Basalis Externa - Part 2", "url": "https://youtu.be/17G4CAvmKL4?si=vhfrnh-0MctPR9Kf", "order": 7},
+                    {"title": "Norma Basalis Externa - Part 3", "url": "https://youtu.be/HAB0acftQ5w?si=-srojCERD_iZsuGV", "order": 8},
+                    {"title": "Norma Basalis Interna - Part 1", "url": "https://youtu.be/pVkdBMl-eLI?si=8KWk6CooIJC7JyD2", "order": 9},
+                    {"title": "Norma Basalis Interna - Part 2", "url": "https://youtu.be/tPdaPK4rGPg?si=DmS4F1ZyNNc8f23m", "order": 10},
+                    {"title": "Norma Basalis Interna - Part 3", "url": "https://youtu.be/EGaREmvpq48?si=AedhcooOHXANQ0b1", "order": 11},
+                    {"title": "Cranial Cavity & Skull Cap", "url": "https://youtu.be/1CzKzXJygF4?si=YAwy5M2U-pVO39p3", "order": 12},
+                    {"title": "Formina of the Skull", "url": "https://youtu.be/G0dG5Ik0nT8?si=ycNqeWSK7RUbhsmN", "order": 13},
+                    {"title": "Applied Anatomy", "url": "https://youtu.be/vDU1bLDYjAU?si=eKeq_XTbmfXB8zjS", "order": 14}
+                  ]
+                },
+                {"id": "anatomy-skull-nour", "name": "Dr. Mohamed Nour", "type": "playlist", "url": "https://youtube.com/playlist?list=PLEyLuWys3BMhLUYQZdIQhjC5pxL-tyHPp&si=gwnsC7ZWHMspH26z"}
+              ]
+            }
+          ]
+        },
+        {
+          "id": "genetics",
+          "name": "Genetics",
+          "order": 2,
+          "lectures": [
+            {"id": "genetics-dna-chromosome-genome", "title": "DNA, Chromosome & Human Genome", "order": 1, "sources": [{"id": "genetics-dna-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/Ninulec/96"}]},
+            {"id": "genetics-cell-cycle-mitosis", "title": "Cell Cycle & Mitosis", "order": 2, "sources": [{"id": "genetics-cellcycle-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/fomscu2022_2027lectures/71"}]},
+            {"id": "genetics-meiosis", "title": "Meiosis", "order": 3, "sources": [{"id": "genetics-meiosis-univ-drive", "name": "University Data", "type": "drive", "url": "https://drive.google.com/file/d/14TySUo8zKk4K-ywFb2nncwDraWFBA_ue/view?usp=sharing"}]},
+            {"id": "genetics-gene-expression", "title": "Gene Expression", "order": 4, "sources": [{"id": "genetics-geneexp-sarhan", "name": "Dr. Walaa Sarhan", "type": "youtube", "url": "https://youtu.be/esc9hM29e-Y?si=fPKWswLUoMlUQ59U"}]},
+            {"id": "genetics-mode-of-inheritance", "title": "Mode of Inheritance", "order": 5, "sources": [{"id": "genetics-modeinherit-eman", "name": "Dr. Eman Nabil", "type": "youtube", "url": "https://youtu.be/xlamG1Cd-T0?si=ZGfXzNuEaZFKHv0C"}]}
+          ]
+        },
+        {
+          "id": "biochemistry",
+          "name": "Biochemistry",
+          "order": 3,
+          "lectures": [
+            {"id": "biochem-intro", "title": "Intro", "order": 1, "sources": [{"id": "biochem-intro-fomscu", "name": "University Data (FOMSCU)", "type": "telegram", "url": "https://t.me/LecturesFOMSCU2025/73"}]},
+            {"id": "biochem-amino-acid", "title": "Amino Acid", "order": 2, "sources": [{"id": "biochem-aminoacid-kasralaini", "name": "Kasr El Aini", "type": "youtube", "url": "https://youtu.be/_gZlf3JcyDY?si=YPmD4Npowe6gDnut"}]},
+            {"id": "biochem-enzyme", "title": "Enzyme", "order": 3, "sources": [{"id": "biochem-enzyme-wahdan", "name": "Dr. Moaz Wahdan", "type": "youtube", "url": "https://youtu.be/Z_JjSt1rjsU?si=7wh_K-dIL0s99lLV"}]},
+            {"id": "biochem-lipids", "title": "Lipids", "order": 4, "sources": [{"id": "biochem-lipids-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/Ninulec/143"}]},
+            {"id": "biochem-bio-membrane", "title": "Bio Membrane", "order": 5, "sources": [{"id": "biochem-biomembrane-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/fomscu2022_2027lectures/105"}]}
+          ]
+        },
+        {
+          "id": "histology",
+          "name": "Histology",
+          "order": 4,
+          "lectures": [
+            {"id": "histology-introduction", "title": "Introduction", "order": 1, "sources": [{"id": "histology-intro-univ", "name": "University Data", "type": "drive", "url": "https://drive.google.com/file/d/101RvSKa13qBXPS4M2dSlIduHaQoKwCrx/view?usp=sharing"}]},
+            {"id": "histology-cell-structure", "title": "Cell Structure", "order": 2, "sources": [{"id": "histology-cellstruct-univ", "name": "University Data", "type": "drive", "url": "https://drive.google.com/file/d/1bZNJ3uhOZEIxWBxUdVT3iuTdVJJHA-rB/view?usp=sharing"}]},
+            {"id": "histology-non-membranous-membranous-organelles", "title": "Non-membranous & Membranous Organelles", "order": 3, "sources": [{"id": "histology-organelles1-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/Ninulec/48"}]},
+            {"id": "histology-organelles", "title": "Organelles", "order": 4, "sources": [{"id": "histology-organelles2-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/fomscu2022_2027lectures/67"}]},
+            {"id": "histology-epithelium-tissue", "title": "Epithelium Tissue", "order": 5, "sources": [{"id": "histology-epithelium-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/Ninulec/81"}]},
+            {"id": "histology-connective-tissue", "title": "Connective Tissue", "order": 6, "sources": [{"id": "histology-connective-univ", "name": "University Data", "type": "telegram", "url": "https://t.me/fomscu2022_2027lectures/67"}]}
+          ]
+        },
+        {
+          "id": "physiology",
+          "name": "Physiology",
+          "order": 5,
+          "lectures": [
+            {"id": "physiology-homeostasis", "title": "Homeostasis", "order": 1, "sources": [{"id": "physiology-homeostasis-univ", "name": "University Data", "type": "drive", "url": "https://drive.google.com/file/d/1SJzHnyQkiyoAkZ7FAlniRVfrMu_45D-s/view?usp=sharing"}]},
+            {"id": "physiology-thermoregulation", "title": "Thermoregulation", "order": 2, "sources": [{"id": "physiology-thermo-medix", "name": "University Data", "type": "telegram", "url": "https://t.me/PysioMedix1/9"}]},
+            {"id": "physiology-body-fluids", "title": "Body Fluids", "order": 3, "sources": [{"id": "physiology-bodyfluids-univ", "name": "University Data", "type": "sharepoint", "url": "https://medsuezedu-my.sharepoint.com/:v:/g/personal/firstyear_med_suez_edu_eg/EfmENa9fIfhPu0vXgW4YfiEB_-3t1w8I02TolAPwgfVJnQ?e=GK0tX2"}]},
+            {"id": "physiology-transport-across-cell-membrane", "title": "Transport Across Cell Membrane", "order": 4, "sources": [{"id": "physiology-transport-naji", "name": "Dr. Naji", "type": "youtube", "url": "https://youtu.be/rGU_jh-YaNA?si=8U8B667eNrv2ab-W"}]}
+          ]
+        }
+      ]
+    },
+    {"id": "foundation-2", "name": "Foundation 2", "order": 2, "subjects": []},
+    {"id": "foundation-3", "name": "Foundation 3", "order": 3, "subjects": []},
+    {"id": "musculoskeletal", "name": "Musculoskeletal", "order": 4, "subjects": []}
+  ]
+}

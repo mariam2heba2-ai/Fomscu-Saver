@@ -1,0 +1,27 @@
+{
+  "siteTitle": "FOMSCU",
+  "logo": "/images/fomscu-logo.jpeg",
+  "homepage": {
+    "heroImage": "/images/fomscu-logo.jpeg",
+    "heroTitle": "FOMSCU",
+    "heroSubtitle": "KNOWLEDGE | INNOVATION | RESEARCH"
+  },
+  "colors": {
+    "primary": "#006B4F",
+    "accent": "#0B8F6A",
+    "background": "#031F18",
+    "card": "#07382B",
+    "text": "#F5F7F6",
+    "heading": "#F5F7F6",
+    "button": "#0B8F6A",
+    "border": "rgba(255,255,255,0.12)",
+    "hover": "#0B8F6A",
+    "muted": "#B8CCC5"
+  },
+  "ui": {
+    "roundedCards": true,
+    "glassEffect": true,
+    "glassBackground": "rgba(255,255,255,0.07)",
+    "glassBorder": "1px solid rgba(255,255,255,0.12)"
+  }
+}
